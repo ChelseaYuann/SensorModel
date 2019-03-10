@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><sml:PhysicalComponent xmlns:sml="http://www.opengis.net/sensorml/2.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="InsituSensor" xsi:schemaLocation="http://www.opengis.net/sensorml/2.0 http://schemas.opengis.net/sensorML/2.0/sensorML.xsd">
+	<!-- ================================================= -->
+	<!--             Insitu Sensor ==>Description          -->
+	<!-- ================================================= -->
+	<gml:description>1231313132</gml:description>
+	<gml:name>地面原位传感器</gml:name>
+	<!-- ================================================= -->
+	<!--                      Keywords                     -->
+	<!-- ================================================= -->
+	<sml:keywords>
+		<sml:KeywordList>
+			<sml:keyword/>
+			<sml:keyword/>
+			<sml:keyword/>
+			<sml:keyword/>
+		</sml:KeywordList>
+	</sml:keywords>
+	<!-- ================================================= -->
+	<!--                     Identification                -->
+	<!-- ================================================= -->
+	<sml:identification>
+		<sml:IdentifierList>
+			<sml:identifier>
+				<sml:Term definition="urn:ogc:def:identifier:OGC:1.0:uniqueID">
+					<sml:label>唯一标识码</sml:label>
+					<sml:value/>
+				</sml:Term>
+			</sml:identifier>
+			<sml:identifier>
+				<sml:Term definition="urn:ogc:def:identifier:OGC:1.0:longName">
+					<sml:label>传感器全称</sml:label>
+					<sml:value/>
+				</sml:Term>
+			</sml:identifier>
+			<sml:identifier>
+				<sml:Term definition="urn:ogc:def:identifier:OGC:1.0:shortName">
+					<sml:label>传感器简称</sml:label>
+					<sml:value/>
+				</sml:Term>
+			</sml:identifier>
+			
+			<sml:identifier>
+				<sml:Term definition="urn:ogc:def:identifier:OGC:1.0:parentSensorPlatformUniqueID">
+					<sml:label>所属平台标识符</sml:label>
+					<sml:value>【*】urn:ogc:feature:insiteSensor:platform::XXX</sml:value>
+				</sml:Term>
+			</sml:identifier>
+		</sml:IdentifierList>
+	</sml:identification>
+	<!-- ================================================= -->
+	<!--                      Classification               -->
+	<!-- ================================================= -->
+	<sml:classification>
+		<sml:ClassifierList>
+			<sml:classifier>
+				<sml:Term definition="urn:ogc:def:classifier:OGC:1.0:sensorType">
+					<sml:label>传感器类型</sml:label>
+					<sml:value/>
+				</sml:Term>
+			</sml:classifier>
+			<sml:classifier>
+				<sml:Term definition="urn:ogc:def:classifier:OGC:1.0:sensorType">
+					<sml:label>传感器类型</sml:label>
+					<sml:value/>
+				</sml:Term>
+			</sml:classifier>
+			<sml:classifier>
+				<sml:Term definition="urn:ogc:def:classifier:OGC:1.0:sharingLevel">
+					<sml:label>共享等级</sml:label>
+					<sml:value>公开</sml:value>
+				</sml:Term>
+			</sml:classifier>
+			<sml:classifier>
+				<sml:Term definition="urn:ogc:def:classifier:OGC:1.0:intendedApplication">
+					<sml:label>预期应用</sml:label>
+					<sml:value/>
+				</sml:Term>
+			</sml:classifier>
+		</sml:ClassifierList>
+	</sml:classification>
+	<!-- ================================================= -->
+	<!--                      Constraints                  -->
+	<!-- ================================================= -->
+	<sml:validTime>
+		<gml:TimePeriod gml:id="传感器有效时间">
+			<gml:beginPosition>2016-01-01T08:00:00.0Z</gml:beginPosition>
+			<gml:endPosition>2017-01-01T08:00:00.0Z</gml:endPosition>
+		</gml:TimePeriod>
+	</sml:validTime>
+	
+	
+	<!-- ================================================= -->
+	<!--                     Characteristics               -->
+	<!-- ================================================= -->
+	<sml:characteristics name="generalProperties">
+		<sml:CharacteristicList>
+			
+			
+			
+		</sml:CharacteristicList>
+	</sml:characteristics>
+	<!-- ================================================= -->
+	<!--                    Capability                     -->
+	<!-- ================================================= -->
+	<sml:capabilities name="specifications">
+		<sml:CapabilityList>
+			<!-- Observation Breadth -->
+			
+			<!-- Observation Depth -->
+			
+			<!-- Observation Frequency -->
+			
+			<!-- Observation Quality -->
+			
+			<!-- Observation Data -->
+			
+		</sml:CapabilityList>
+	</sml:capabilities>
+	<!-- ================================================= -->
+	<!--                      Location                     -->
+	<!-- ================================================= -->
+	<!--    LocationByDescription    -->
+	
+	<!--    LocationByPoint    -->
+	
+	<!--    LocationByLocation    -->
+	
+	<!-- ================================================= -->
+	<!--           responsible department                  -->
+	<!-- ================================================= -->
+	<sml:contacts>
+		<sml:ContactList>
+			<!--     manufacturer     -->
+			<sml:contact xlink:arcrole="urn:ogc:def:role:OGC:1.0:manufacturer">
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString/>
+					</gmd:organisationName>
+					<gmd:individualName>
+						<gco:CharacterString/>
+					</gmd:individualName>
+					<!--  contactInfo  -->
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice/>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:deliveryPoint/>
+									<gmd:city/>
+									<gmd:administrativeArea/>
+									<gmd:country/>
+									<gmd:electronicMailAddress/>
+									<gmd:postalCode/>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+				</gmd:CI_ResponsibleParty>
+			</sml:contact>
+		</sml:ContactList>
+	</sml:contacts>
+	<!-- ================================================= -->
+	<!--       external resource for documentation         -->
+	<!-- ================================================= -->
+	<sml:documentation>
+		<sml:DocumentList>
+			<sml:document xlink:arcrole="urn:ogc:def:property:OGC:1.0:OperationsManual">
+				<gmd:CI_OnlineResource>
+					<gmd:linkage>
+						<gmd:URL>null(附件URL)</gmd:URL>
+					</gmd:linkage>
+					<gmd:name>
+						<gco:CharacterString>null(附件名称)</gco:CharacterString>
+					</gmd:name>
+					<gmd:description>
+						<gco:CharacterString>null(附件简单描述)</gco:CharacterString>
+					</gmd:description>
+				</gmd:CI_OnlineResource>
+			</sml:document>
+		</sml:DocumentList>
+	</sml:documentation>
+	<!-- ================================================= -->
+	<!--                     History                       -->
+	<!-- ================================================= -->
+	
+	<!-- ================================================= -->
+	<!--    Sensor interoperability service ==>Interface   -->
+	<!-- ================================================= -->
+	
+	<!-- ================================================= -->
+	<!--               Feature Of Interest                 -->
+	<!-- ================================================= -->
+	<sml:featuresOfInterest>
+		<sml:FeatureList definition="urn:ogc:def:featureOfInterest：OGC:1.0:identifier">
+			<swe:label>featuresOfInterest</swe:label>
+			<sml:feature xlink:href="http://www.nexosproject.eu/resources/features/trios/buoy/TriOS1/"/>
+		</sml:FeatureList>
+	</sml:featuresOfInterest>
+	<!-- ================================================= -->
+	<!--                  Input/Output                     -->
+	<!-- ================================================= -->
+	
+	
+	<!-- ================================================= -->
+	<!--                        Parameters                 -->
+	<!-- ================================================= -->
+	
+	<!-- ================================================= -->
+	<!--           Inheritance and configuration           -->
+	<!-- ================================================= -->
+	<sml:configuration>
+		<sml:Setting>
+			<sml:setValue ref="parameters/settings/CURRENT_SETTINGS/Temperature">00</sml:setValue>
+			<sml:setMode ref="modes/LEVEL_MODE">1</sml:setMode>
+		</sml:Setting>
+	</sml:configuration>
+	<!-- ================================================= -->
+	<!--                     Component                     -->
+	<!-- ================================================= -->
+	
+	
+	<!-- ================================================= -->
+	<!--                      Modes                        -->
+	<!-- ================================================= -->
+	<sml:modes>
+		<sml:ModeChoice id="LEVEL_MODE">
+			<sml:mode>
+				<sml:Mode id="0">
+					<gml:description>Application conditions</gml:description>
+					<gml:name>0</gml:name>
+					<sml:configuration>
+						<sml:Settings>
+							<sml:setValue ref="urn:ogc:parameters:setting:level">00</sml:setValue>
+						</sml:Settings>
+					</sml:configuration>
+				</sml:Mode>
+				<sml:Mode id="1">
+					<gml:description>Application conditions</gml:description>
+					<gml:name>1</gml:name>
+					<sml:configuration>
+						<sml:Settings>
+							<sml:setValue ref="urn:ogc:parameters:setting:level">00</sml:setValue>
+						</sml:Settings>
+					</sml:configuration>
+				</sml:Mode>
+			</sml:mode>
+		</sml:ModeChoice>
+	</sml:modes>
+</sml:PhysicalComponent>

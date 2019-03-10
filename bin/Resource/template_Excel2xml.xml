@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HierarchicalDataset xmlns:ows="http://www.opengis.net/ows" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sml="http://www.opengis.net/sensorml/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sensorml/2.0   http://schemas.opengis.net/sensorML/2.0/sensorML.xsd">
+	<category name="Rainstorm(示例)">
+		<SubCategory name="Rainstorm report(示例)">
+			<keywords>
+				<KeywordList>
+					<keyword name="路面积水(示例)">
+						<User id="1">
+							<description>用户详细信息</description>
+							<name>用户名</name>
+							<position>
+								<text>武汉</text>
+								<point>
+									<coordinate>00 00</coordinate>
+								</point>
+							</position>
+							<time>2017-8-25 11：31</time>
+							<content>
+								<text>【信号灯全线遭雷击故障 交警暴雨中手动疏导交通6小时】8月24日下午3点，武汉市区普降雷暴雨，雷电、暴雨两大黄色预警齐发，洪山地区团结大道一线信号灯受雷击影响全部熄灭，白云路、欢乐大道青化立交地段大面积渍水，最严重处有半米多深。正值车流集中的晚高峰，二环至三环沿线行车秩序受到严重影响。为防止车辆交织挤压造成大面积“瘫痪式拥堵”，交警们冒着如注的暴雨，在各个路口中间手动疏导交通，一辆辆指挥挪动，解开绞死的路口车流结。（经视直播记者 祁晓箐）</text>
+							</content>
+						</User>
+					</keyword>
+				</KeywordList>
+			</keywords>
+		</SubCategory>
+	</category>
+</HierarchicalDataset>

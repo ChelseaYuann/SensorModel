@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><HierarchicalDataset xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ows="http://www.opengis.net/ows" xmlns:sml="http://www.opengis.net/sensorml/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sensorml/2.0   http://schemas.opengis.net/sensorML/2.0/sensorML.xsd">
+	<category name="rainstorm">
+		<SubCategory name="rainstorm report">
+			<keywords>
+				<KeywordList>
+					<keyword name="积水">
+						<User id="1">
+							<description>用户详细信息</description>
+							<name>Mui--</name>
+							<position>
+								<text/>
+								<point>
+									<coordinate>00 00</coordinate>
+								</point>
+							</position>
+							<time>2018-01-26 13:58</time>
+							<content>
+								<text>		前年武汉暴雨，在武昌站滞留了十个小时。今年南方大雪，希望不要破记录。#谁说下雪很浪漫，并不# ​
+		</text>
+							</content>
+						</User>
+					<User id="2"><description>用户详细信息</description><name>三观不正五官正的喵小姐</name><position><text/><point><coordinate/></point></position><time>2018-01-25 01:13</time><content><text>回家的路700公里，胡图送我300公里。  在匆匆而过的火车上看到了今年第一场雪。  英语期末考没来得及写完，Mr Zhang还是勉强给过了。  舟车劳顿一整天，终于吃上了吴女士熬了一下午的腊八粥和萝卜炖排骨。  今夜的武汉城狂风暴雨。离开了大半年，再次踏上这片土地，有一种安心而踏实的亲切感。      现在呐 躲在暖暖的被窝里，听着吴女士絮絮叨叨，跟我天南海北的扯。Good night，WH~ </text></content></User><User id="3"><description>用户详细信息</description><name>乔木鸡腿ion</name><position><text>武汉</text><point><coordinate/></point></position><time>2018-01-24 16:22</time><content><text>		愿望:希望武汉打雷闪电大暴雨 ​
+		</text></content></User><User id="4"><description>用户详细信息</description><name>a2105014757</name><position><text/><point><coordinate/></point></position><time>2018-01-22 06:05</time><content><text> 武汉暴雨，愿一切安好。收到许多朋友的问候和关心，放心，我没事。因为……我不在武汉。我在别处的一座山间小屋里，闭关写闭眼2。 ​
+		</text></content></User><User id="5"><description>用户详细信息</description><name>雅思七分李尽安</name><position><text/><point><coordinate/></point></position><time>2018-01-21 00:39</time><content><text>		每年回家不是洪水就是暴雨，现在搞得武汉都要下雪了，服气服气 ​
+		</text></content></User><User id="6"><description>用户详细信息</description><name>TANXyang-</name><position><text/><point><coordinate/></point></position><time>2018-01-19 02:04</time><content><text>我记得那天下着特别大的暴雨，五月初，正是武汉下大暴雨的季节，书记给我发短信让我去学院找他，我没有伞，找酒店前台借了一把，湿着脚就去了，路上我特别忐忑不安，我不知道我要面对什么。第二天送走你以后，我在武汉站的星巴克徘徊了好久，当时我丝毫没有彻底解脱的感觉，反而我觉得好累，像是被束缚，我买了一个星巴克的水杯，安慰自己，重新生活吧，回来的路上，我想哭，却哭不出来，好像太多情绪已经压抑到无法生理表达出来。后来的一个月里，我们没有任何联系，好像都从对方的世界里彻底的消失，直到2017年的六月，你突然给我发来一条定位。</text></content></User><User id="7"><description>用户详细信息</description><name>浅奏社会</name><position><text/><point><coordinate/></point></position><time>2018-01-18 13:48</time><content><text> 武汉暴雨袭城，饿了么小哥坚持送餐不停歇！(同步自@新浪看点)|武汉暴雨袭... ​
+		</text></content></User><User id="8"><description>用户详细信息</description><name>漾笑了</name><position><text>None</text><point><coordinate/></point></position><time>2018-01-13 22:09</time><content><text>		发表了博文《你不懂的芳菲世界12》袁菲一走，袁芳感觉武汉是她的地狱。妹妹走的真是时候，妹妹一走，武汉天天暴雨，天天暴雨，天天没人来买东西，也就天天亏钱。天天亏钱，老妈天天骂她。好在她操过菜刀后，老妈真|你不懂的芳... ​
+		</text></content></User><User id="9"><description>用户详细信息</description><name>gnaw373</name><position><text>None</text><point><coordinate/></point></position><time>2018-01-12 22:25</time><content><text>		猎场 武汉暴雨 网页链接 周华健 ​
+		</text></content></User><User id="10"><description>用户详细信息</description><name>一个不coo的人</name><position><text>None</text><point><coordinate/></point></position><time>2018-01-08 07:50</time><content><text>		仅次于火车坐到武汉时湖南铁路被暴雨冲塌等了10小时又返回烟台的第二搞笑事件发生了。大雾封路蓬莱倒车又坏在了半路。烟台这个大城市可能真的不太适合我。现在，比较棘手的问题是。我想尿尿 ​
+		</text></content></User><User id="11"><description>用户详细信息</description><name>醉醺醺幽然Oz</name><position><text/><point><coordinate/></point></position><time>2018-01-07 23:29</time><content><text>		[甩甩手] 樊振东 亚锦赛 楚乔传九幽台 网页链接 暴雨预警等级 武汉小吃街有哪些 ​
+		</text></content></User><User id="12"><description>用户详细信息</description><name>海屿烈</name><position><text>None</text><point><coordinate/></point></position><time>2018-01-07 22:41</time><content><text>《我们仍在回味那天所吃过的食物的一切》.（微博从今天起也开始更新……）「08下雨天和甜食更配噢」地点：武汉廉政公园附近。人物：周斌、我。今天的上杭，暴雨天。第一次和你去武汉，也是暴雨天，你说，你出门旅行，必然下雨。然后怎么样都找不到酒店，最后在粮道街找了一个小旅店，还帮金家两口子抢客房。今天还有哪里在下雨呢？</text></content></User><User id="13"><description>用户详细信息</description><name>今口Fantasy</name><position><text/><point><coordinate/></point></position><time>2018-01-07 18:26</time><content><text>		脑子里想的是淋着暴雨说再也不来武汉的人儿可能不是我&#129335;&#127999;‍♀️ ​
+		</text></content></User><User id="14"><description>用户详细信息</description><name>皈依芋姑娘-</name><position><text/><point><coordinate/></point></position><time>2018-01-07 03:34</time><content><text>那天的动车上一场暴雨过后的武汉霓虹闪烁 车水马龙享受每一次旅途的时光期待重逢遇见经历新事物其实每个人的心中都有着一份属于别人家的诗和远方……所以我在路上 </text></content></User><User id="15"><description>用户详细信息</description><name>钱钱酱dl</name><position><text/><point><coordinate/></point></position><time>2018-01-03 23:37</time><content><text>今天晚上顶着武汉的妖风和暴雨和我的胖胖去看了前任3真的没有让人失望因为吃饭的原因进去的时候迟到了半小时吧所以不知道孟云和林佳为什么分手但是还是很喜欢她们的爱情因为真的给我很暖的感觉简单又纯粹真的好希望在绕了一大圈后他们又可以在一起可是故事的结局往往不尽如人意吧看完了这部电影想说珍惜现在身边的爱人吧无论如何轻易不要放开手 </text></content></User><User id="16"><description>用户详细信息</description><name>大后羿</name><position><text>武汉·狮子山街区</text><point><coordinate/></point></position><time>2018-01-01 02:59</time><content><text>2017很特别 回忆起来最开心的事第一次见肥皂 和胖子们在后门小吃街聊嗨到周围都虚化了的一瞬间我和鸟去武汉找胖之 刚到武汉的时候下暴雨 我们在小区门口见到她的时候虽然去了一家不大的公司但是能做喜欢的事还有很有趣的同事在泸沽湖认识了普通话不标准的香港朋友老豆和祖儿最重要的是 我们开始真正的长大 我还一个人去看了电影2018也很特别各赴前程不道再见</text></content></User></keyword>
+				</KeywordList>
+			</keywords>
+		</SubCategory>
+	</category>
+</HierarchicalDataset>

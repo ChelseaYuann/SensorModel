@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/JAVACoding/resource/dom4j-2.1.0.jar"/>
+	<classpathentry kind="lib" path="jgoodies-forms-1.8.0.jar" sourcepath="jgoodies-forms-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/lib/slf4j-1.7.25/jcl-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/lib/slf4j-1.7.25/jcl-over-slf4j-1.7.25-sources.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/lib/slf4j-1.7.25/jul-to-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/lib/slf4j-1.7.25/jul-to-slf4j-1.7.25-sources.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/lib/slf4j-1.7.25/log4j-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/lib/slf4j-1.7.25/log4j-over-slf4j-1.7.25-sources.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/lib/slf4j-1.7.25/osgi-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/lib/slf4j-1.7.25/osgi-over-slf4j-1.7.25-sources.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/lib/slf4j-1.7.25/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/lib/slf4j-1.7.25/slf4j-api-1.7.25-sources.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/lib/slf4j-1.7.25/slf4j-ext-1.7.25.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/lib/slf4j-1.7.25/slf4j-ext-1.7.25-sources.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/lib/slf4j-1.7.25/slf4j-migrator-1.7.25.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/bin/poi-3.17/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/bin/poi-3.17/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/bin/poi-3.17/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/bin/poi-3.17/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/bin/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSE/install/bin/poi-3.17/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

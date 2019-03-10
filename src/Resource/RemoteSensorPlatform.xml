@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sml:PhysicalComponent id="RemoteSensorPlatform" xmlns:sml="http://www.opengis.net/sensorml/2.0" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sensorml/2.0 http://schemas.opengis.net/sensorML/2.0/sensorML.xsd">
+	<!-- ================================================= -->
+	<!--         RemoteSensorPlatform ==>Description      -->
+	<!-- ================================================= -->
+	<gml:description>卫星平台概述</gml:description>
+	<gml:name>卫星传感器平台</gml:name>
+	<!-- ================================================= -->
+	<!--                    keywords                       -->
+	<!-- ================================================= -->
+	<sml:keywords>
+		<sml:KeywordList>
+			<sml:keyword>遥感</sml:keyword>
+			<sml:keyword>卫星英文简称</sml:keyword>
+			<sml:keyword>卫星中文简称</sml:keyword>
+			<sml:keyword>传感器简称</sml:keyword>
+		</sml:KeywordList>
+	</sml:keywords>
+	<!-- ================================================= -->
+	<!--                   identification                  -->
+	<!-- ================================================= -->
+	<sml:identification>
+		<sml:IdentifierList>
+			<sml:identifier>
+				<sml:Term definition="urn:ogc:def:identifier:OGC:1.0:uniqueID">
+					<sml:label>唯一标识符</sml:label>
+					<sml:value>【*】urn:组织标识英文名:def:identifier:OGC:2.0:卫星平台英文简称(不能出现空格)</sml:value>
+				</sml:Term>
+			</sml:identifier>
+			<sml:identifier>
+				<sml:Term definition="urn:ogc:def:identifier:OGC:1.0:longName">
+					<sml:label>卫星平台全称</sml:label>
+					<sml:value>【*】全称</sml:value>
+				</sml:Term>
+			</sml:identifier>
+			<sml:identifier>
+				<sml:Term definition="urn:ogc:def:identifier:OGC:1.0:shortName">
+					<sml:label>卫星平台简称</sml:label>
+					<sml:value>【*】简称</sml:value>
+				</sml:Term>
+			</sml:identifier>
+			<sml:identifier>
+				<sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorName">
+					<sml:label>搭载传感器名称</sml:label>
+					<sml:value>【*】传感器简称</sml:value>
+				</sml:Term>
+			</sml:identifier>
+			<sml:identifier>
+				<sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorUniqueID">
+					<sml:label>搭载传感器标识符</sml:label>
+					<sml:value>【*】urn:ogc:feature:remoteSensor:XXX</sml:value>
+				</sml:Term>
+			</sml:identifier>
+		</sml:IdentifierList>
+	</sml:identification>
+	<!-- ================================================= -->
+	<!--                   classification                  -->
+	<!-- ================================================= -->
+	<sml:classification>
+		<sml:ClassifierList>
+			<sml:classifier>
+				<sml:Term definition="urn:ogc:def:classifier:OGC:1.0:platformType">
+					<sml:label>平台类型</sml:label>
+					<sml:value>遥感卫星平台</sml:value>
+				</sml:Term>
+			</sml:classifier>
+			<sml:classifier>
+				<sml:Term definition="urn:ogc:def:classifier:OGC:1.0:sensorType">
+					<sml:label>卫星类型</sml:label>
+					<sml:value>陆地卫星/气象卫星/海洋卫星/导航卫星/多用途卫星/其他卫星（任选一种）</sml:value>
+				</sml:Term>
+			</sml:classifier>
+			<sml:classifier>
+				<sml:Term definition="urn:ogc:def:classifier:OGC:1.0:orbitType">
+					<sml:label>轨道类型</sml:label>
+					<sml:value>太阳同步轨道/地球同步轨道（任选一种）</sml:value>
+				</sml:Term>
+			</sml:classifier>
+			<sml:classifier>
+				<sml:Term definition="urn:ogc:def:classifier:OGC:1.0:intendedApplication">
+					<sml:label>预期应用</sml:label>
+					<sml:value>对地观测成像/洪水观测/……（此结构可有多个）</sml:value>
+				</sml:Term>
+			</sml:classifier>
+		</sml:ClassifierList>
+	</sml:classification>
+	<!-- ================================================= -->
+	<!--                     constraints                    -->
+	<!-- ================================================= -->
+	<!--     constraints==>validTime   -->
+	<sml:validTime>
+		<gml:TimePeriod id="卫星平台有效时间">
+			<gml:beginPosition>2016-01-01T08:00:00.0Z</gml:beginPosition>
+			<gml:endPosition>2026-01-01T08:00:00.0Z</gml:endPosition>
+		</gml:TimePeriod>
+	</sml:validTime>
+	<!--     constraints==>securityConstraint   -->
+	<sml:securityConstraints>
+		<gmd:MD_SecurityConstraints>
+			<gmd:useLimitation>
+				<gco:CharacterString>安全约束简单描述</gco:CharacterString>
+			</gmd:useLimitation>
+		</gmd:MD_SecurityConstraints>
+	</sml:securityConstraints>
+	<!--     constraints==>legalConstraint   -->
+	<sml:legalConstraints>
+		<gmd:MD_LegalConstraints>
+			<gmd:useLimitation>
+				<gco:CharacterString>法律约束简单描述</gco:CharacterString>
+			</gmd:useLimitation>
+		</gmd:MD_LegalConstraints>
+	</sml:legalConstraints>
+	<!-- ================================================= -->
+	<!--                    characteristics                -->
+	<!-- ================================================= -->
+	<sml:characteristics name="generalProperties">
+		<sml:CharacteristicList>
+			<sml:characteristic name="physicalProperties">
+				<swe:DataRecord definition="urn:ogc:def:property:OGC:1.0:PhysicalProperties">
+					<swe:label>传感器物理特征</swe:label>
+					<swe:field name="长度">
+						<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:length">
+							<swe:uom>m</swe:uom>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="宽度">
+						<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:width">
+							<swe:uom>m</swe:uom>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="高度">
+						<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:height">
+							<swe:uom>m</swe:uom>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="质量">
+						<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:weight">
+							<swe:uom>kg</swe:uom>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+				</swe:DataRecord>
+			</sml:characteristic>
+			<sml:characteristic name="electricalRequirements">
+				<swe:DataRecord definition="urn:ogc:def:property:OGC:1.0:powerRequirement">
+					<swe:label>供电通信特征</swe:label>
+					<swe:field name="电流">
+						<swe:QuantityRange definition="urn:ogc:def:property:OGC:1.0:electricalCurrent">
+							<swe:uom code="A"/>
+							<swe:value>00 00</swe:value>
+						</swe:QuantityRange>
+					</swe:field>
+					<swe:field name="电压">
+						<swe:QuantityRange definition="urn:ogc:def:property:OGC:1.0:voltage">
+							<swe:uom code="V"/>
+							<swe:value>00 00</swe:value>
+						</swe:QuantityRange>
+					</swe:field>
+					<swe:field name="功率">
+						<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:power">
+							<swe:uom code="W"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="输出功率">
+						<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:outputPower">
+							<swe:uom code="W"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+				</swe:DataRecord>
+			</sml:characteristic>
+			<sml:characteristic name="workEnvironment">
+				<swe:DataRecord definition="urn:ogc:def:property:OGC:1.0:workEnvironment">
+					<swe:label>工作环境</swe:label>
+					<swe:field name="设计寿命">
+						<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:designedLife">
+							<swe:uom code="year"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="有效载荷">
+						<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:payLoad">
+							<swe:uom code="kg"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+				</swe:DataRecord>
+			</sml:characteristic>
+		</sml:CharacteristicList>
+	</sml:characteristics>
+	<!-- ================================================= -->
+	<!--                     capabilities                  -->
+	<!-- ================================================= -->
+	<sml:capabilities>
+		<sml:CapabilityList>
+			<sml:capability name="positionCapability">
+				<swe:DataRecord definition="urn:ogc:def:property:OGC:1.0:positionCapability">
+					<swe:field name="发射时间">
+						<swe:Time definition="urn:ogc:def:property:epochTime">
+							<swe:value>20010101</swe:value>
+						</swe:Time>
+					</swe:field>
+					<swe:field name="轨道高度">
+						<swe:Quantity definition="urn:ogc:def:property:averageOrbitHeight">
+							<swe:uom code="km"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="轨道周期">
+						<swe:Quantity definition="urn:ogc:def:property:orbitCycle">
+							<swe:uom code="min"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="重访周期">
+						<swe:Quantity definition="urn:ogc:def:property:revisitingPeriod">
+							<swe:uom code="d"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="轨道倾角">
+						<swe:Quantity definition="urn:ogc:def:property:orbitInclination">
+							<swe:uom code="deg"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="降交点地方时">
+						<swe:Text definition="urn:ogc:def:property:LocalTimeOfDescendinNode ">
+							<swe:value>10:00AM(示例)</swe:value>
+						</swe:Text>
+					</swe:field>
+					<swe:field name="升交点赤经">
+						<swe:Quantity definition="urn:ogc:def:property:orbitRigthAscension">
+							<swe:uom code="deg"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="偏心率">
+						<swe:Quantity definition="urn:ogc:def:property:orbitEccentricity">
+							<swe:uom code="%"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="近地点幅角">
+						<swe:Quantity definition="urn:ogc:def:property:orbitArgumentOfPerigee">
+							<swe:uom code="deg"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="平近点角">
+						<swe:Quantity definition="urn:ogc:def:property:orbitMeanAnomaly">
+							<swe:uom code="deg"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="平运动角">
+						<swe:Quantity definition="urn:ogc:def:property:orbitMeanMotion">
+							<swe:uom code="circ/d"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="衰减率">
+						<swe:Quantity definition="urn:ogc:def:property:orbitDecayRate">
+							<swe:uom code="circ/d²"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="observedBBox">
+						<gml:Envelope definition="urn:ogc:def:property:OGC:1.0:observedBBOX" referenceFrame="urn:ogc:def:crs:OGC:1.3:EPSG:4329">
+							<gml:lowerCorner>
+								<swe:Vector>
+									<swe:coordinate name="纬度">
+										<swe:Quantity axisID="y">
+											<swe:uom code="deg" xlink:href="urn:ogc:def:uom:OGC:1.0:UCUM::deg"/>
+											<swe:value>00</swe:value>
+										</swe:Quantity>
+									</swe:coordinate>
+									<swe:coordinate name="经度">
+										<swe:Quantity axisID="x">
+											<swe:uom code="deg" xlink:href="urn:ogc:def:uom:OGC:1.0:UCUM::deg"/>
+											<swe:value>00</swe:value>
+										</swe:Quantity>
+									</swe:coordinate>
+								</swe:Vector>
+							</gml:lowerCorner>
+							<gml:upperCorner>
+								<swe:Vector>
+									<swe:coordinate name="纬度">
+										<swe:Quantity axisID="y">
+											<swe:uom code="deg" xlink:href="urn:ogc:def:uom:OGC:1.0:UCUM::deg"/>
+											<swe:value>00</swe:value>
+										</swe:Quantity>
+									</swe:coordinate>
+									<swe:coordinate name="经度">
+										<swe:Quantity axisID="x">
+											<swe:uom code="deg" xlink:href="urn:ogc:def:uom:OGC:1.0:UCUM::deg"/>
+											<swe:value>00</swe:value>
+										</swe:Quantity>
+									</swe:coordinate>
+								</swe:Vector>
+							</gml:upperCorner>
+						</gml:Envelope>
+					</swe:field>
+				</swe:DataRecord>
+			</sml:capability>
+			<sml:capability name="TLE">
+				<swe:DataRecord definition="urn:ogc:def:property:OGC:1.0:twoLineElement">
+					<swe:field name="TLE卫星标识码">
+						<swe:Text definition="urn:ogc:def:property:OGC:1.0:TLESatID">
+							<swe:value>TLE标准卫星名称</swe:value>
+						</swe:Text>
+					</swe:field>
+					<swe:field name="TLE轨道参数1">
+						<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:TLELineOne">
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="TLE轨道参数2">
+						<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:TLELineTwo">
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+				</swe:DataRecord>
+			</sml:capability>
+			<sml:capability name="computingCapability">
+				<swe:DataRecord definition="urn:ogc:def:property:OGC:1.0:computingCapability">
+					<swe:field name="存储容量">
+						<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:storage">
+							<swe:uom code="GB"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="数据速率">
+						<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:dataRate">
+							<swe:uom code="Mbps"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+				</swe:DataRecord>
+			</sml:capability>
+			<sml:capability name="communicationCapability">
+				<swe:DataRecord definition="urn:ogc:def:property:OGC:1.0:communicationCapability">
+					<swe:field name="数传方式">
+						<swe:Category definition="urn:ogc:def:property:OGC:1.0:dataTransmissionMode">
+							<swe:value>中继星下传/直接下传/实时传输/存储传输（任选一种）</swe:value>
+						</swe:Category>
+					</swe:field>
+					<swe:field name="遥测波段">
+						<swe:Category definition="urn:ogc:def:property:OGC:1.0:controlWaveBand">
+							<swe:value>S波段/X波段/其他</swe:value>
+						</swe:Category>
+					</swe:field>
+					<swe:field name="数据下行波段">
+						<swe:Category definition="urn:ogc:def:property:OGC:1.0:downlinkWaveBand">
+							<swe:value>S波段/X波段/其他</swe:value>
+						</swe:Category>
+					</swe:field>
+					<swe:field name="数据下行速率">
+						<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:downlinkRate">
+							<swe:uom code="Mbps"/>
+							<swe:value>00</swe:value>
+						</swe:Quantity>
+					</swe:field>
+					<swe:field name="通信接口">
+						<swe:Category definition="urn:ogc:def:property:OGC:1.0:communicationInterface">
+							<swe:value>RS232/USB（示例）</swe:value>
+						</swe:Category>
+					</swe:field>
+				</swe:DataRecord>
+			</sml:capability>
+		</sml:CapabilityList>
+	</sml:capabilities>
+	<!-- ================================================= -->
+	<!--                      Location                     -->
+	<!-- ================================================= -->
+	<sml:position>
+		<swe:Vector definition="urn:ogc:def:property:OGC:1.0:remoteSensorPlatformLocation" referenceFrame="urn:ogc:def:crs:OGC:1.3:EPSG:4329">
+			<swe:coordinate name="纬度">
+				<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:Latitude" axisID="y">
+					<swe:uom code="deg"/>
+					<swe:value>00.00</swe:value>
+				</swe:Quantity>
+			</swe:coordinate>
+			<swe:coordinate name="经度">
+				<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:Longitude" axisID="x">
+					<swe:uom code="deg"/>
+					<swe:value>00.00</swe:value>
+				</swe:Quantity>
+			</swe:coordinate>
+			<swe:coordinate name="海拔">
+				<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:Altitude" axisID="z">
+					<swe:uom code="deg"/>
+					<swe:value>00.00</swe:value>
+				</swe:Quantity>
+			</swe:coordinate>
+		</swe:Vector>
+	</sml:position>
+	<sml:SpatialFrame id="PlatformFrame（示例）">
+		<sml:origin>空间坐标系原点简单描述</sml:origin>
+		<sml:axis name="X">X is perdendicular to the symmetric axis and intersects the indicator marked "x" on the casing</sml:axis>
+		<sml:axis name="Y">Y = Z cross X</sml:axis>
+		<sml:axis name="Z">Z is along the symmetric axis of the sensor in the direction of view</sml:axis>
+	</sml:SpatialFrame>
+	<sml:TemporalFrame id="T1">
+		<sml:origin>时间坐标系原点简单描述</sml:origin>
+	</sml:TemporalFrame>
+	<!-- ================================================= -->
+	<!--               responsible department              -->
+	<!-- ================================================= -->
+	<sml:contacts>
+		<sml:ContactList>
+			<!--     operator     -->
+			<sml:contact xlink:arcrole="urn:ogc:def:role:OGC:1.0:operator">
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>【*】null(中文名称加括号英文简称)</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:individualName>
+						<gco:CharacterString>null</gco:CharacterString>
+					</gmd:individualName>
+					<!--  contactInfo  -->
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice>null</gmd:voice>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:deliveryPoint>null</gmd:deliveryPoint>
+									<gmd:city>null</gmd:city>
+									<gmd:administrativeArea>null</gmd:administrativeArea>
+									<gmd:country>null</gmd:country>
+									<gmd:electronicMailAddress>null</gmd:electronicMailAddress>
+									<gmd:postalCode>null</gmd:postalCode>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+				</gmd:CI_ResponsibleParty>
+			</sml:contact>
+		</sml:ContactList>
+	</sml:contacts>
+	<!-- ================================================= -->
+	<!--       external resource for documentation         -->
+	<!-- ================================================= -->
+	<sml:documentation>
+		<sml:DocumentList>
+			<sml:document xlink:arcrole="urn:ogc:def:property:OGC:1.0:specification(示例)">
+				<gmd:CI_OnlineResource>
+					<gmd:linkage>
+						<gmd:URL>null(附件URL)</gmd:URL>
+					</gmd:linkage>
+					<gmd:name>
+						<gco:CharacterString>null(附件名称)</gco:CharacterString>
+					</gmd:name>
+					<gmd:description>
+						<gco:CharacterString>null(附件简单描述)</gco:CharacterString>
+					</gmd:description>
+				</gmd:CI_OnlineResource>
+			</sml:document>
+		</sml:DocumentList>
+	</sml:documentation>
+	<!-- ================================================= -->
+	<!--                     History                       -->
+	<!-- ================================================= -->
+	<sml:history>
+		<sml:EventList>
+			<sml:event>
+				<sml:Event>
+					<swe:label>null(事件标签，此结构可有多个)</swe:label>
+					<swe:description>null(事件描述)</swe:description>
+					<sml:time>
+						<gml:TimePeriod gml:id="E1">
+							<gml:beginPosition>2015-06-01T10:00:00Z(起始时间示例)</gml:beginPosition>
+							<gml:endPosition>2015-06-01T11:00:00Z(结束时间示例)</gml:endPosition>
+						</gml:TimePeriod>
+					</sml:time>
+				</sml:Event>
+			</sml:event>
+		</sml:EventList>
+	</sml:history>
+	<!-- ================================================= -->
+	<!--    Sensor interoperability service ==>Interface   -->
+	<!-- ================================================= -->
+	<sml:interfaces>
+		<sml:InterfaceList>
+			<sml:interface name="null(接口名称)">
+				<sml:InterfaceDefinition>
+					<sml:serviceLayer>
+						<swe:DataRecord definition="urn:ogc:def:interface:OGC:1.0:SWEServiceInterface">
+							<swe:field name="urn:ogc:def:interface:OGC:1.0:ServiceURL">
+								<swe:Text>
+									<swe:value>null(服务地址URL)</swe:value>
+								</swe:Text>
+							</swe:field>
+							<swe:field name="urn:ogc:def:interface:OGC:1.0:ServiceType">
+								<swe:Text>
+									<swe:value>null(服务类型)</swe:value>
+								</swe:Text>
+							</swe:field>
+							<swe:field name="urn:ogc:def:interface:OGC:1.0:ServiceSpecificSensorID">
+								<swe:Text>
+									<swe:value>null(传感器UID)</swe:value>
+								</swe:Text>
+							</swe:field>
+						</swe:DataRecord>
+					</sml:serviceLayer>
+				</sml:InterfaceDefinition>
+			</sml:interface>
+		</sml:InterfaceList>
+	</sml:interfaces>
+	<!-- ================================================= -->
+	<!--                  Input/Output                     -->
+	<!-- ================================================= -->
+	<sml:inputs>
+		<sml:InputList>
+			<sml:input name="辐射">
+				<swe:ObservableProperty definition="urn:ogc:def:property:OGC:1.0:radiation"/>
+			</sml:input>
+		</sml:InputList>
+	</sml:inputs>
+	<sml:outputs>
+		<sml:OutputList>
+			<sml:output name="影像">
+				<swe:Quantity definition="urn:ogc:def:property:OGC:1.0:image">
+					<swe:uom code="pix"/>
+				</swe:Quantity>
+			</sml:output>
+		</sml:OutputList>
+	</sml:outputs>
+	<!-- ================================================= -->
+	<!--                    component                     -->
+	<!-- ================================================= -->
+	<sml:components>
+		<sml:ComponentList>
+			<sml:component name="XXX（示例）" xlink:href="urn:ogc:feature:remotesensor:XXX"/>
+		</sml:ComponentList>
+	</sml:components>
+</sml:PhysicalComponent>

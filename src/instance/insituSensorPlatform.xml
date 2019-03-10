@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><sml:PhysicalSystem xmlns:sml="http://www.opengis.net/sensorml/2.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ism="urn:us:gov:ic:ism" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="InsituSensorPlatform" xsi:schemaLocation="http://www.opengis.net/sensorml/2.0  http://schemas.opengis.net/sensorML/2.0/sensorML.xsd">
+	<!-- ================================================= -->
+	<!--             地面传感器平台==>站点描述             -->
+	<!-- ================================================= -->
+	<gml:description/>
+	<gml:name>地面传感器平台</gml:name>
+	<!-- ================================================= -->
+	<!--                      关键词                       -->
+	<!-- ================================================= -->
+	<sml:keywords>
+		<sml:KeywordList>
+			<sml:keyword/>
+			<sml:keyword/>
+			<sml:keyword/>
+			<sml:keyword/>
+		</sml:KeywordList>
+	</sml:keywords>
+	<!-- ================================================= -->
+	<!--                      标识符                       -->
+	<!-- ================================================= -->
+	<sml:identification>
+		<sml:IdentifierList>
+			<sml:identifier>
+				<sml:Term definition="urn:ogc:def:identifier:OGC:1.0:uniqueID">
+					<sml:label>唯一标识码</sml:label>
+					<sml:value/>
+				</sml:Term>
+			</sml:identifier>
+			<sml:identifier>
+				<sml:Term definition="urn:ogc:def:identifier:OGC:1.0:longName">
+					<sml:label>全称</sml:label>
+					<sml:value/>
+				</sml:Term>
+			</sml:identifier>
+			<sml:identifier>
+				<sml:Term definition="urn:ogc:def:identifier:OGC:1.0:shortName">
+					<sml:label>简称</sml:label>
+					<sml:value/>
+				</sml:Term>
+			</sml:identifier>
+			<sml:identifier>
+				<sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorName">
+					<sml:label>搭载传感器名称</sml:label>
+					<sml:value>【*】搭载传感器简称(此结构可有1-n个)</sml:value>
+				</sml:Term>
+			</sml:identifier>
+			<sml:identifier>
+				<sml:Term definition="urn:ogc:def:identifier:OGC:1.0:associatedSensorUniqueID">
+					<sml:label>搭载传感器标识符</sml:label>
+					<sml:value>【*】urn:ogc:feature:insiteSensor:XX1(此结构可有1-n个)</sml:value>
+				</sml:Term>
+			</sml:identifier>
+		</sml:IdentifierList>
+	</sml:identification>
+	<!-- ================================================= -->
+	<!--                      分类符                       -->
+	<!-- ================================================= -->
+	<sml:classification>
+		<sml:ClassifierList>
+			<sml:classifier>
+				<sml:Term definition="urn:ogc:def:classifier:OGC:1.0:platformType">
+					<sml:label>站点类型</sml:label>
+					<sml:value/>
+				</sml:Term>
+			</sml:classifier>
+			<sml:classifier>
+				<sml:Term definition="urn:ogc:def:classifier:OGC:1.0:sensorType">
+					<sml:label>传感器类型</sml:label>
+					<sml:value/>
+				</sml:Term>
+			</sml:classifier>
+			<sml:classifier>
+				<sml:Term definition="urn:ogc:def:classifier:OGC:1.0:stationLevel">
+					<sml:label>站点等级</sml:label>
+					<sml:value>国家一级</sml:value>
+				</sml:Term>
+			</sml:classifier>
+			<sml:classifier>
+				<sml:Term definition="urn:ogc:def:classifier:OGC:1.0:sharingLevel">
+					<sml:label>共享等级</sml:label>
+					<sml:value>公开</sml:value>
+				</sml:Term>
+			</sml:classifier>
+			<sml:classifier>
+				<sml:Term definition="urn:ogc:def:classifier:OGC:1.0:intendedApplication">
+					<sml:label>预期应用</sml:label>
+					<sml:value/>
+				</sml:Term>
+			</sml:classifier>
+		</sml:ClassifierList>
+	</sml:classification>
+	<!-- ================================================= -->
+	<!--                      约束条件                     -->
+	<!-- ================================================= -->
+	<sml:validTime>
+		<gml:TimePeriod gml:id="站点平台有效时间">
+			<gml:beginPosition>2018-01-01T08:00:00.0Z</gml:beginPosition>
+			<gml:endPosition>2020-01-01T08:00:00.0Z</gml:endPosition>
+		</gml:TimePeriod>
+	</sml:validTime>
+	
+	
+	<!-- ================================================= -->
+	<!--                      站点特征                                                                  -->
+	<!-- ================================================= -->
+	
+	<!-- ================================================= -->
+	<!--                    站点观测能力                   -->
+	<!-- ================================================= -->
+	<sml:capabilities name="specifications">
+		<sml:CapabilityList>
+			<!-- 观测能力广度 -->
+			<sml:capability name="InSituObservationBreadth">
+				<swe:DataRecord definition="urn:ogc:def:property:OGC:1.0:InSituObservationBreadth">
+					<swe:label>观测能力广度</swe:label>
+					<swe:field name="原位探测类型">
+						<swe:Category definition="urn:ogc:def:property:OGC:1.0:insituDetectingType">
+							<swe:value/>
+						</swe:Category>
+					</swe:field>
+					
+					<swe:field name="极限过载">
+						<swe:QuantityRange definition="urn:ogc:def:property:OGC:1.0:overloadLimitation">
+							<swe:uom code="M"/>
+							<swe:value>00 00</swe:value>
+						</swe:QuantityRange>
+					</swe:field>
+					
+					<!-- 观测包围盒 -->
+					<swe:field name="观测包围盒">
+						<swe:Vector definition="urn:ogc:def:property:OGC:1.0:observedBBOX" referenceFrame="urn:ogc:def:crs:OGC:1.3:EPSG:4329">
+							<!-- lowerCorner -->
+							<swe:coordinate name="纬度">
+								<swe:Quantity axisID="y">
+									<swe:uom code="deg" xlink:href="urn:ogc:def:uom:OGC:1.0:UCUM::deg"/>
+									<swe:value>00</swe:value>
+								</swe:Quantity>
+							</swe:coordinate>
+							<swe:coordinate name="经度">
+								<swe:Quantity axisID="x">
+									<swe:uom code="deg" xlink:href="urn:ogc:def:uom:OGC:1.0:UCUM::deg"/>
+									<swe:value>00</swe:value>
+								</swe:Quantity>
+							</swe:coordinate>
+							<!-- upperCorner -->
+							<swe:coordinate name="纬度">
+								<swe:Quantity axisID="y">
+									<swe:uom code="deg" xlink:href="urn:ogc:def:uom:OGC:1.0:UCUM::deg"/>
+									<swe:value>00</swe:value>
+								</swe:Quantity>
+							</swe:coordinate>
+							<swe:coordinate name="经度">
+								<swe:Quantity axisID="x">
+									<swe:uom code="deg" xlink:href="urn:ogc:def:uom:1.0:UCUM::deg"/>
+									<swe:value>00</swe:value>
+								</swe:Quantity>
+							</swe:coordinate>
+						</swe:Vector>
+					</swe:field>
+				</swe:DataRecord>
+			</sml:capability>
+			<!-- 观测能力深度 -->
+			
+			<!-- 观测能力频度 -->
+			
+			<!-- 观测能力质量 -->
+			
+			<!-- 观测能力数据 -->
+			
+		</sml:CapabilityList>
+	</sml:capabilities>
+	<!-- ================================================= -->
+	<!--                      站点位置                                                                 -->
+	<!-- ================================================= -->
+	<!--    LocationByDescription    -->
+	
+	<!--    LocationByPoint    -->
+	
+	<!--    LocationByLocation    -->
+	
+	<!-- ================================================= -->
+	<!--                      负责单位                     -->
+	<!-- ================================================= -->
+	<sml:contacts>
+		<sml:ContactList>
+			<!--     manufacturer     -->
+			<sml:contact xlink:arcrole="urn:ogc:def:role:OGC:1.0:manufacturer">
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>【*】null(中文名称加括号英文简称)</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:individualName>
+						<gco:CharacterString>null</gco:CharacterString>
+					</gmd:individualName>
+					<!--  contactInfo  -->
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice>null</gmd:voice>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:deliveryPoint>null</gmd:deliveryPoint>
+									<gmd:city>null</gmd:city>
+									<gmd:administrativeArea>null</gmd:administrativeArea>
+									<gmd:country>null</gmd:country>
+									<gmd:electronicMailAddress>null</gmd:electronicMailAddress>
+									<gmd:postalCode>null</gmd:postalCode>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+				</gmd:CI_ResponsibleParty>
+			</sml:contact>
+		</sml:ContactList>
+	</sml:contacts>
+	<!-- ================================================= -->
+	<!--                      Document                     -->
+	<!-- ================================================= -->
+    <sml:documentation>
+		<sml:DocumentList>
+			<sml:document xlink:arcrole="urn:ogc:def:property:OGC:1.0:OperationsManual">
+				<gmd:CI_OnlineResource>
+					<gmd:linkage>
+						<gmd:URL>F:\JAVACoding\SML\src\sm\images\annex.jpg</gmd:URL>
+					</gmd:linkage>
+					<gmd:name>
+						<gco:CharacterString>图1</gco:CharacterString>
+					</gmd:name>
+					<gmd:description>
+						<gco:CharacterString>图11111</gco:CharacterString>
+					</gmd:description>
+				</gmd:CI_OnlineResource>
+			</sml:document>
+		<sml:document xlink:arcrole="urn:ogc:def:property:OGC:1.0:OperationsManual">
+				<gmd:CI_OnlineResource>
+					<gmd:linkage>
+						<gmd:URL>1</gmd:URL>
+					</gmd:linkage>
+					<gmd:name>
+						<gco:CharacterString>F:\InsituSensorPlatform.xml</gco:CharacterString>
+					</gmd:name>
+					<gmd:description>
+						<gco:CharacterString>1</gco:CharacterString>
+					</gmd:description>
+				</gmd:CI_OnlineResource>
+			</sml:document><sml:document xlink:arcrole="urn:ogc:def:property:OGC:1.0:OperationsManual">
+				<gmd:CI_OnlineResource>
+					<gmd:linkage>
+						<gmd:URL>2</gmd:URL>
+					</gmd:linkage>
+					<gmd:name>
+						<gco:CharacterString>F:\test.xml</gco:CharacterString>
+					</gmd:name>
+					<gmd:description>
+						<gco:CharacterString>2</gco:CharacterString>
+					</gmd:description>
+				</gmd:CI_OnlineResource>
+			</sml:document></sml:DocumentList>
+	</sml:documentation>
+	<!-- ================================================= -->
+	<!--                      服务历史                                                                 -->
+	<!-- ================================================= -->
+	
+	<!-- ================================================= -->
+	<!--                      服务接口                                                                   -->
+	<!-- ================================================= -->
+	
+	<!-- ================================================= -->
+	<!--                        输入输出                                                            -->
+	<!-- ================================================= -->
+	
+	
+	<!-- ================================================= -->
+	<!--                        参数                                                                   -->
+	<!-- ================================================= -->
+	
+	<!-- ================================================= -->
+	<!--                      平台组件                                                                 -->
+	<!-- ================================================= -->
+	
+	
+</sml:PhysicalSystem>
